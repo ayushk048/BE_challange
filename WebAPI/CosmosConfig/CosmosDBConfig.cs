@@ -1,7 +1,7 @@
 ﻿using Microsoft.Azure.Cosmos;
-using Tandem_Diabetes_BE_challenge.CosmosConfig.Service;
+using _Diabetes_BE_challenge.CosmosConfig.Service;
 
-namespace Tandem_Diabetes_BE_challenge.Config
+namespace _Diabetes_BE_challenge.Config
 {
     public class CosmosDBConfig
     {

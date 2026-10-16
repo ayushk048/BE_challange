@@ -7,16 +7,16 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
-COPY ["Tandem Diabetes BE challage.csproj", "."]
-RUN dotnet restore "./Tandem Diabetes BE challage.csproj"
+COPY ["  BE challage.csproj", "."]
+RUN dotnet restore "./  BE challage.csproj"
 COPY . .
 WORKDIR "/src/."
-RUN dotnet build "Tandem Diabetes BE challage.csproj" -c Release -o /app/build
+RUN dotnet build "  BE challage.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "Tandem Diabetes BE challage.csproj" -c Release -o /app/publish /p:UseAppHost=false
+RUN dotnet publish "  BE challage.csproj" -c Release -o /app/publish /p:UseAppHost=false
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "Tandem Diabetes BE challage.dll"]
+ENTRYPOINT ["dotnet", "  BE challage.dll"]

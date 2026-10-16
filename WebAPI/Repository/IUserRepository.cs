@@ -1,6 +1,6 @@
-﻿using Tandem_Diabetes_BE_challenge.Entities;
+﻿using _Diabetes_BE_challenge.Entities;
 
-namespace Tandem_Diabetes_BE_challenge.Repository
+namespace _Diabetes_BE_challenge.Repository
 {
     public interface IUserRepository
     {

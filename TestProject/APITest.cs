@@ -1,7 +1,7 @@
 using System.Net.Http.Json;
 using System.Net;
 using Microsoft.AspNetCore.Mvc.Testing;
-using Tandem_Diabetes_BE_challenge.DTOs;
+using _Diabetes_BE_challenge.DTOs;
 
 namespace TestProject
 {

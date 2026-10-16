@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\WebAPI\TandemDiabetesBEChallenge.csproj" />
+    <ProjectReference Include="..\WebAPI\DiabetesBEChallenge.csproj" />
   </ItemGroup>
 
 </Project>

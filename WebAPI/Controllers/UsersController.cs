@@ -1,12 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Tandem_Diabetes_BE_challenge.DTOs;
-using Tandem_Diabetes_BE_challenge.Services;
+using _Diabetes_BE_challenge.DTOs;
+using _Diabetes_BE_challenge.Services;
 using FluentValidation;
 using FluentValidation.Results;
-using Tandem_Diabetes_BE_challenge.Validator;
-using Tandem_Diabetes_BE_challenge.CustomException;
+using _Diabetes_BE_challenge.Validator;
+using _Diabetes_BE_challenge.CustomException;
 
-namespace Tandem_Diabetes_BE_challenge.Controllers
+namespace _Diabetes_BE_challenge.Controllers
 {
     [Route("api/users")]
     [ApiController]

@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace Tandem_Diabetes_BE_challenge.DTOs
+namespace _Diabetes_BE_challenge.DTOs
 {
     public class UserDTO
     {

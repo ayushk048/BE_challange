@@ -4,7 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <RootNamespace>Tandem_Diabetes_BE_challenge</RootNamespace>
+    <RootNamespace>_Diabetes_BE_challenge</RootNamespace>
     <UserSecretsId>561a7268-36d9-471b-82c1-20d5c179a4f8</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     <DockerfileContext>.</DockerfileContext>

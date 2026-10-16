@@ -1,6 +1,6 @@
 {
   "profiles": {
-    "Tandem_Diabetes_BE_challage": {
+    "_Diabetes_BE_challage": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "swagger",

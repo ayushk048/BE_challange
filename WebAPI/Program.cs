@@ -1,12 +1,12 @@
 using FluentValidation;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
-using Tandem_Diabetes_BE_challenge.Config;
-using Tandem_Diabetes_BE_challenge.CosmosConfig;
-using Tandem_Diabetes_BE_challenge.CosmosConfig.Service;
-using Tandem_Diabetes_BE_challenge.DTOs;
-using Tandem_Diabetes_BE_challenge.Repository;
-using Tandem_Diabetes_BE_challenge.Services;
-using Tandem_Diabetes_BE_challenge.Validator;
+using _Diabetes_BE_challenge.Config;
+using _Diabetes_BE_challenge.CosmosConfig;
+using _Diabetes_BE_challenge.CosmosConfig.Service;
+using _Diabetes_BE_challenge.DTOs;
+using _Diabetes_BE_challenge.Repository;
+using _Diabetes_BE_challenge.Services;
+using _Diabetes_BE_challenge.Validator;
 
 var builder = WebApplication.CreateBuilder(args);
 

@@ -1,6 +1,6 @@
 ﻿using FluentValidation;
 
-namespace Tandem_Diabetes_BE_challenge.Validator
+namespace _Diabetes_BE_challenge.Validator
 {
     public class EmailValidator : AbstractValidator<string>
     {

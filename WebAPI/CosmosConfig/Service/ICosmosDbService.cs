@@ -1,8 +1,8 @@
 ﻿using Microsoft.Azure.Cosmos;
-using Tandem_Diabetes_BE_challenge.Entities;
-using User = Tandem_Diabetes_BE_challenge.Entities.User;
+using _Diabetes_BE_challenge.Entities;
+using User = _Diabetes_BE_challenge.Entities.User;
 
-namespace Tandem_Diabetes_BE_challenge.CosmosConfig.Service
+namespace _Diabetes_BE_challenge.CosmosConfig.Service
 {
     public interface ICosmosDbService
     {

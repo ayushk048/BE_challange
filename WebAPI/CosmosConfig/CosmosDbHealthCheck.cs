@@ -1,9 +1,9 @@
 ﻿using Microsoft.Azure.Cosmos;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
 using System.Net;
-using Tandem_Diabetes_BE_challenge.CosmosConfig.Service;
+using _Diabetes_BE_challenge.CosmosConfig.Service;
 
-namespace Tandem_Diabetes_BE_challenge.CosmosConfig
+namespace _Diabetes_BE_challenge.CosmosConfig
 {
     public class CosmosDbHealthCheck : IHealthCheck
     {

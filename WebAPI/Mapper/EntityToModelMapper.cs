@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
-using Tandem_Diabetes_BE_challenge.DTOs;
-using Tandem_Diabetes_BE_challenge.Entities;
+using _Diabetes_BE_challenge.DTOs;
+using _Diabetes_BE_challenge.Entities;
 
-namespace Tandem_Diabetes_BE_challenge.Mapper
+namespace _Diabetes_BE_challenge.Mapper
 {
     public class EntityToModelMapper : Profile
     {

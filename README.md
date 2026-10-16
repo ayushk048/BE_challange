@@ -1,8 +1,8 @@
-﻿# Tandem Diabetes BE Challenge
+﻿#   BE Challenge
 
 ![cloudDiagram drawio](https://user-images.githubusercontent.com/75988502/190862856-6d49fd42-414d-4b95-9196-8a3ccdeecbfc.png)
 
-This Program is part of the Tandem Backend Coding Exercise
+This Program is part of the  Backend Coding Exercise
 
 Created 3 APIs:
 1. Get All Users
@@ -93,10 +93,10 @@ https://localhost:7076/health
 
 Run the following command on terminal to run Docker container
 ```
-> docker build -t tandemimage .
+> docker build -t image .
 ```
 ```
-> docker run -d -p 8080:80 --name tandem  tandemimage
+> docker run -d -p 8080:80 --name   image
 ```
 
 ## Integration Tests:

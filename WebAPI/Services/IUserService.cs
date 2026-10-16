@@ -1,6 +1,6 @@
-﻿using Tandem_Diabetes_BE_challenge.DTOs;
+﻿using _Diabetes_BE_challenge.DTOs;
 
-namespace Tandem_Diabetes_BE_challenge.Services
+namespace _Diabetes_BE_challenge.Services
 {
     public interface IUserService
     {
